@@ -1,3 +1,38 @@
 //
 // Custom overrides from a user.
 //
+
+.side-bar {
+    background-color: transparent!important;
+}
+
+.menu-button {
+    color: #c4183c!important;
+}
+
+.btn {
+    box-shadow: none;
+}
+
+.page-header {
+    height: 0!important;
+}
+
+.page-header {
+    background-color: transparent!important;
+}
+
+.menu-button {
+    margin-top: 80px!important;
+}
+
+@media (min-width: 50rem)
+{
+    .site-header {
+        margin-top: 80px;
+    }
+
+    .page-header {
+        margin-top: 80px!important;
+    }
+}

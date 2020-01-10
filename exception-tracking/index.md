@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Exception Tracking
-nav_order: 1
-has_children: true
+nav_order: 2
+has_children: false
 ---
