@@ -10,6 +10,10 @@
     color: #c4183c!important;
 }
 
+.menu-button:focus {
+    outline: none!important;
+}
+
 .btn {
     box-shadow: none;
 }
