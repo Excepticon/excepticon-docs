@@ -1,0 +1,840 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Model.ExceptionInstance
+  commentId: T:Excepticon.Model.ExceptionInstance
+  id: ExceptionInstance
+  parent: Excepticon.Model
+  children:
+  - Excepticon.Model.ExceptionInstance.#ctor(System.Exception)
+  - Excepticon.Model.ExceptionInstance.#ctor(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  - Excepticon.Model.ExceptionInstance.Environment
+  - Excepticon.Model.ExceptionInstance.FullyQualifiedType
+  - Excepticon.Model.ExceptionInstance.HttpRequest
+  - Excepticon.Model.ExceptionInstance.Message
+  - Excepticon.Model.ExceptionInstance.Source
+  - Excepticon.Model.ExceptionInstance.StackTrace
+  - Excepticon.Model.ExceptionInstance.TargetSite
+  - Excepticon.Model.ExceptionInstance.TimeOccurred
+  - Excepticon.Model.ExceptionInstance.Type
+  langs:
+  - csharp
+  - vb
+  name: ExceptionInstance
+  nameWithType: ExceptionInstance
+  fullName: Excepticon.Model.ExceptionInstance
+  type: Class
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExceptionInstance
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 5
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public class ExceptionInstance
+    content.vb: Public Class ExceptionInstance
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Excepticon.Model.WebExceptionInstance
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Excepticon.Model.ExceptionInstance.#ctor(System.Exception)
+  commentId: M:Excepticon.Model.ExceptionInstance.#ctor(System.Exception)
+  id: '#ctor(System.Exception)'
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: ExceptionInstance(Exception)
+  nameWithType: ExceptionInstance.ExceptionInstance(Exception)
+  fullName: Excepticon.Model.ExceptionInstance.ExceptionInstance(System.Exception)
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 7
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public ExceptionInstance(Exception exception)
+    parameters:
+    - id: exception
+      type: System.Exception
+    content.vb: Public Sub New(exception As Exception)
+  overload: Excepticon.Model.ExceptionInstance.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.#ctor(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Excepticon.Model.ExceptionInstance.#ctor(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  id: '#ctor(System.Exception,Microsoft.AspNetCore.Http.HttpContext)'
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: ExceptionInstance(Exception, HttpContext)
+  nameWithType: ExceptionInstance.ExceptionInstance(Exception, HttpContext)
+  fullName: Excepticon.Model.ExceptionInstance.ExceptionInstance(System.Exception, Microsoft.AspNetCore.Http.HttpContext)
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 23
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public ExceptionInstance(Exception exception, HttpContext httpContext)
+    parameters:
+    - id: exception
+      type: System.Exception
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    content.vb: Public Sub New(exception As Exception, httpContext As HttpContext)
+  overload: Excepticon.Model.ExceptionInstance.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.Type
+  commentId: P:Excepticon.Model.ExceptionInstance.Type
+  id: Type
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: Type
+  nameWithType: ExceptionInstance.Type
+  fullName: Excepticon.Model.ExceptionInstance.Type
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Type
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 32
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public string Type { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Type As String
+  overload: Excepticon.Model.ExceptionInstance.Type*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.FullyQualifiedType
+  commentId: P:Excepticon.Model.ExceptionInstance.FullyQualifiedType
+  id: FullyQualifiedType
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: FullyQualifiedType
+  nameWithType: ExceptionInstance.FullyQualifiedType
+  fullName: Excepticon.Model.ExceptionInstance.FullyQualifiedType
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: FullyQualifiedType
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 34
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public string FullyQualifiedType { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property FullyQualifiedType As String
+  overload: Excepticon.Model.ExceptionInstance.FullyQualifiedType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.Message
+  commentId: P:Excepticon.Model.ExceptionInstance.Message
+  id: Message
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: Message
+  nameWithType: ExceptionInstance.Message
+  fullName: Excepticon.Model.ExceptionInstance.Message
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Message
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 36
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public string Message { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Message As String
+  overload: Excepticon.Model.ExceptionInstance.Message*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.StackTrace
+  commentId: P:Excepticon.Model.ExceptionInstance.StackTrace
+  id: StackTrace
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: StackTrace
+  nameWithType: ExceptionInstance.StackTrace
+  fullName: Excepticon.Model.ExceptionInstance.StackTrace
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: StackTrace
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 38
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public string StackTrace { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property StackTrace As String
+  overload: Excepticon.Model.ExceptionInstance.StackTrace*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.Source
+  commentId: P:Excepticon.Model.ExceptionInstance.Source
+  id: Source
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: Source
+  nameWithType: ExceptionInstance.Source
+  fullName: Excepticon.Model.ExceptionInstance.Source
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Source
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 40
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public string Source { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Source As String
+  overload: Excepticon.Model.ExceptionInstance.Source*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.TimeOccurred
+  commentId: P:Excepticon.Model.ExceptionInstance.TimeOccurred
+  id: TimeOccurred
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: TimeOccurred
+  nameWithType: ExceptionInstance.TimeOccurred
+  fullName: Excepticon.Model.ExceptionInstance.TimeOccurred
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: TimeOccurred
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 42
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public DateTimeOffset TimeOccurred { get; set; }
+    parameters: []
+    return:
+      type: System.DateTimeOffset
+    content.vb: Public Property TimeOccurred As DateTimeOffset
+  overload: Excepticon.Model.ExceptionInstance.TimeOccurred*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.Environment
+  commentId: P:Excepticon.Model.ExceptionInstance.Environment
+  id: Environment
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: Environment
+  nameWithType: ExceptionInstance.Environment
+  fullName: Excepticon.Model.ExceptionInstance.Environment
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Environment
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 44
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public EnvironmentData Environment { get; set; }
+    parameters: []
+    return:
+      type: Excepticon.Model.EnvironmentData
+    content.vb: Public Property Environment As EnvironmentData
+  overload: Excepticon.Model.ExceptionInstance.Environment*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.TargetSite
+  commentId: P:Excepticon.Model.ExceptionInstance.TargetSite
+  id: TargetSite
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: TargetSite
+  nameWithType: ExceptionInstance.TargetSite
+  fullName: Excepticon.Model.ExceptionInstance.TargetSite
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: TargetSite
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 46
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public TargetSite TargetSite { get; set; }
+    parameters: []
+    return:
+      type: Excepticon.Model.TargetSite
+    content.vb: Public Property TargetSite As TargetSite
+  overload: Excepticon.Model.ExceptionInstance.TargetSite*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Model.ExceptionInstance.HttpRequest
+  commentId: P:Excepticon.Model.ExceptionInstance.HttpRequest
+  id: HttpRequest
+  parent: Excepticon.Model.ExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: HttpRequest
+  nameWithType: ExceptionInstance.HttpRequest
+  fullName: Excepticon.Model.ExceptionInstance.HttpRequest
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Model/ExceptionInstance.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: HttpRequest
+    path: ../excepticon-dotnet/src/Excepticon/Model/ExceptionInstance.cs
+    startLine: 48
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Model
+  syntax:
+    content: public HttpRequestData HttpRequest { get; set; }
+    parameters: []
+    return:
+      type: Excepticon.Model.HttpRequestData
+    content.vb: Public Property HttpRequest As HttpRequestData
+  overload: Excepticon.Model.ExceptionInstance.HttpRequest*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Excepticon.Model
+  commentId: N:Excepticon.Model
+  name: Excepticon.Model
+  nameWithType: Excepticon.Model
+  fullName: Excepticon.Model
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Excepticon.Model.ExceptionInstance.#ctor*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.#ctor
+  name: ExceptionInstance
+  nameWithType: ExceptionInstance.ExceptionInstance
+  fullName: Excepticon.Model.ExceptionInstance.ExceptionInstance
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: Excepticon.Model.ExceptionInstance.Type*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.Type
+  name: Type
+  nameWithType: ExceptionInstance.Type
+  fullName: Excepticon.Model.ExceptionInstance.Type
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Excepticon.Model.ExceptionInstance.FullyQualifiedType*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.FullyQualifiedType
+  name: FullyQualifiedType
+  nameWithType: ExceptionInstance.FullyQualifiedType
+  fullName: Excepticon.Model.ExceptionInstance.FullyQualifiedType
+- uid: Excepticon.Model.ExceptionInstance.Message*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.Message
+  name: Message
+  nameWithType: ExceptionInstance.Message
+  fullName: Excepticon.Model.ExceptionInstance.Message
+- uid: Excepticon.Model.ExceptionInstance.StackTrace*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.StackTrace
+  name: StackTrace
+  nameWithType: ExceptionInstance.StackTrace
+  fullName: Excepticon.Model.ExceptionInstance.StackTrace
+- uid: Excepticon.Model.ExceptionInstance.Source*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.Source
+  name: Source
+  nameWithType: ExceptionInstance.Source
+  fullName: Excepticon.Model.ExceptionInstance.Source
+- uid: Excepticon.Model.ExceptionInstance.TimeOccurred*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.TimeOccurred
+  name: TimeOccurred
+  nameWithType: ExceptionInstance.TimeOccurred
+  fullName: Excepticon.Model.ExceptionInstance.TimeOccurred
+- uid: System.DateTimeOffset
+  commentId: T:System.DateTimeOffset
+  parent: System
+  isExternal: true
+  name: DateTimeOffset
+  nameWithType: DateTimeOffset
+  fullName: System.DateTimeOffset
+- uid: Excepticon.Model.ExceptionInstance.Environment*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.Environment
+  name: Environment
+  nameWithType: ExceptionInstance.Environment
+  fullName: Excepticon.Model.ExceptionInstance.Environment
+- uid: Excepticon.Model.EnvironmentData
+  commentId: T:Excepticon.Model.EnvironmentData
+  parent: Excepticon.Model
+  name: EnvironmentData
+  nameWithType: EnvironmentData
+  fullName: Excepticon.Model.EnvironmentData
+- uid: Excepticon.Model.ExceptionInstance.TargetSite*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.TargetSite
+  name: TargetSite
+  nameWithType: ExceptionInstance.TargetSite
+  fullName: Excepticon.Model.ExceptionInstance.TargetSite
+- uid: Excepticon.Model.TargetSite
+  commentId: T:Excepticon.Model.TargetSite
+  parent: Excepticon.Model
+  name: TargetSite
+  nameWithType: TargetSite
+  fullName: Excepticon.Model.TargetSite
+- uid: Excepticon.Model.ExceptionInstance.HttpRequest*
+  commentId: Overload:Excepticon.Model.ExceptionInstance.HttpRequest
+  name: HttpRequest
+  nameWithType: ExceptionInstance.HttpRequest
+  fullName: Excepticon.Model.ExceptionInstance.HttpRequest
+- uid: Excepticon.Model.HttpRequestData
+  commentId: T:Excepticon.Model.HttpRequestData
+  parent: Excepticon.Model
+  name: HttpRequestData
+  nameWithType: HttpRequestData
+  fullName: Excepticon.Model.HttpRequestData

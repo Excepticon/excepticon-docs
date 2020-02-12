@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Logging
+  commentId: N:Excepticon.Logging
+  id: Excepticon.Logging
+  children:
+  - Excepticon.Logging.ExcepticonLoggerProvider
+  - Excepticon.Logging.LoggingBuilderExtensions
+  langs:
+  - csharp
+  - vb
+  name: Excepticon.Logging
+  nameWithType: Excepticon.Logging
+  fullName: Excepticon.Logging
+  type: Namespace
+  assemblies:
+  - Excepticon
+references:
+- uid: Excepticon.Logging.ExcepticonLoggerProvider
+  commentId: T:Excepticon.Logging.ExcepticonLoggerProvider
+  name: ExcepticonLoggerProvider
+  nameWithType: ExcepticonLoggerProvider
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider
+- uid: Excepticon.Logging.LoggingBuilderExtensions
+  commentId: T:Excepticon.Logging.LoggingBuilderExtensions
+  name: LoggingBuilderExtensions
+  nameWithType: LoggingBuilderExtensions
+  fullName: Excepticon.Logging.LoggingBuilderExtensions

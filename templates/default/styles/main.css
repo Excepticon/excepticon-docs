@@ -1,0 +1,67 @@
+.expand-stub {
+    display: none;
+}
+
+button, a {
+    color: #ad1535;
+}
+
+.toc .nav > li.active > a {
+    color: #ad1535;
+}
+
+.affix > ul > li.active > a, .affix > ul > li.active > a:before {
+    color: #ad1535;
+}
+
+.affix ul > li.active > a, .affix ul > li.active > a:before {
+    color: #ad1535;
+}
+
+button:hover, button:focus, a:hover, a:focus {
+    color: #97122e;
+}
+
+.toc .nav > li.active > a:hover, .toc .nav > li.active > a:focus {
+    color: #97122e;
+}
+
+.navbar-brand {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 1.5rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.text-danger-brand {
+    color: #c4183c;
+    font-weight: 700!important;
+}
+
+.text-white-brand {
+    color: white;
+}
+
+.return-link-container {
+    padding-top: 15px;
+}
+
+@media (min-width: 768px) {
+    .return-link-container {
+        padding-bottom: 15px;
+    }
+}
+
+.return-link {
+    color: #9d9d9d;
+}
+
+.return-link:hover {
+    color: white;
+}
+
+.return-link-text {
+    margin-left: 10px;
+}

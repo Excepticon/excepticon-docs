@@ -1,0 +1,55 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Model
+  commentId: N:Excepticon.Model
+  id: Excepticon.Model
+  children:
+  - Excepticon.Model.EnvironmentData
+  - Excepticon.Model.ExceptionInstance
+  - Excepticon.Model.HttpRequestData
+  - Excepticon.Model.TargetSite
+  - Excepticon.Model.WebExceptionInstance
+  langs:
+  - csharp
+  - vb
+  name: Excepticon.Model
+  nameWithType: Excepticon.Model
+  fullName: Excepticon.Model
+  type: Namespace
+  assemblies:
+  - Excepticon
+references:
+- uid: Excepticon.Model.EnvironmentData
+  commentId: T:Excepticon.Model.EnvironmentData
+  parent: Excepticon.Model
+  name: EnvironmentData
+  nameWithType: EnvironmentData
+  fullName: Excepticon.Model.EnvironmentData
+- uid: Excepticon.Model.ExceptionInstance
+  commentId: T:Excepticon.Model.ExceptionInstance
+  parent: Excepticon.Model
+  name: ExceptionInstance
+  nameWithType: ExceptionInstance
+  fullName: Excepticon.Model.ExceptionInstance
+- uid: Excepticon.Model.HttpRequestData
+  commentId: T:Excepticon.Model.HttpRequestData
+  parent: Excepticon.Model
+  name: HttpRequestData
+  nameWithType: HttpRequestData
+  fullName: Excepticon.Model.HttpRequestData
+- uid: Excepticon.Model.TargetSite
+  commentId: T:Excepticon.Model.TargetSite
+  parent: Excepticon.Model
+  name: TargetSite
+  nameWithType: TargetSite
+  fullName: Excepticon.Model.TargetSite
+- uid: Excepticon.Model.WebExceptionInstance
+  commentId: T:Excepticon.Model.WebExceptionInstance
+  name: WebExceptionInstance
+  nameWithType: WebExceptionInstance
+  fullName: Excepticon.Model.WebExceptionInstance
+- uid: Excepticon.Model
+  commentId: N:Excepticon.Model
+  name: Excepticon.Model
+  nameWithType: Excepticon.Model
+  fullName: Excepticon.Model

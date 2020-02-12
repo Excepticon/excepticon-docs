@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Options
+  commentId: N:Excepticon.Options
+  id: Excepticon.Options
+  children:
+  - Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: Excepticon.Options
+  nameWithType: Excepticon.Options
+  fullName: Excepticon.Options
+  type: Namespace
+  assemblies:
+  - Excepticon
+references:
+- uid: Excepticon.Options.ExcepticonOptions
+  commentId: T:Excepticon.Options.ExcepticonOptions
+  parent: Excepticon.Options
+  name: ExcepticonOptions
+  nameWithType: ExcepticonOptions
+  fullName: Excepticon.Options.ExcepticonOptions
+- uid: Excepticon.Options
+  commentId: N:Excepticon.Options
+  name: Excepticon.Options
+  nameWithType: Excepticon.Options
+  fullName: Excepticon.Options

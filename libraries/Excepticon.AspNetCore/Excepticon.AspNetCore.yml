@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.AspNetCore
+  commentId: N:Excepticon.AspNetCore
+  id: Excepticon.AspNetCore
+  children:
+  - Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions
+  - Excepticon.AspNetCore.UseExcepticonExtensions
+  langs:
+  - csharp
+  - vb
+  name: Excepticon.AspNetCore
+  nameWithType: Excepticon.AspNetCore
+  fullName: Excepticon.AspNetCore
+  type: Namespace
+  assemblies:
+  - Excepticon.AspNetCore
+references:
+- uid: Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions
+  commentId: T:Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions
+  name: ExcepticonWebHostBuilderExtensions
+  nameWithType: ExcepticonWebHostBuilderExtensions
+  fullName: Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions
+- uid: Excepticon.AspNetCore.UseExcepticonExtensions
+  commentId: T:Excepticon.AspNetCore.UseExcepticonExtensions
+  name: UseExcepticonExtensions
+  nameWithType: UseExcepticonExtensions
+  fullName: Excepticon.AspNetCore.UseExcepticonExtensions

@@ -1,0 +1,8 @@
+### YamlMime:TableOfContent
+- uid: Excepticon.AspNetCore
+  name: Excepticon.AspNetCore
+  items:
+  - uid: Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions
+    name: ExcepticonWebHostBuilderExtensions
+  - uid: Excepticon.AspNetCore.UseExcepticonExtensions
+    name: UseExcepticonExtensions

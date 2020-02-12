@@ -1,0 +1,623 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Logging.ExcepticonLoggerProvider
+  commentId: T:Excepticon.Logging.ExcepticonLoggerProvider
+  id: ExcepticonLoggerProvider
+  parent: Excepticon.Logging
+  children:
+  - Excepticon.Logging.ExcepticonLoggerProvider.#ctor(Excepticon.Options.ExcepticonOptions,Microsoft.AspNetCore.Http.IHttpContextAccessor,Excepticon.Services.IExcepticonClient)
+  - Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger(System.String)
+  - Excepticon.Logging.ExcepticonLoggerProvider.Dispose
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonLoggerProvider
+  nameWithType: ExcepticonLoggerProvider
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider
+  type: Class
+  source:
+    remote:
+      path: src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExcepticonLoggerProvider
+    path: ../excepticon-dotnet/src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+    startLine: 8
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Logging
+  syntax:
+    content: >-
+      [ProviderAlias("Excepticon")]
+
+      public class ExcepticonLoggerProvider : ILoggerProvider, IDisposable
+    content.vb: >-
+      <ProviderAlias("Excepticon")>
+
+      Public Class ExcepticonLoggerProvider
+          Implements ILoggerProvider, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Microsoft.Extensions.Logging.ILoggerProvider
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: Microsoft.Extensions.Logging.ProviderAliasAttribute
+    ctor: Microsoft.Extensions.Logging.ProviderAliasAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: Excepticon
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.#ctor(Excepticon.Options.ExcepticonOptions,Microsoft.AspNetCore.Http.IHttpContextAccessor,Excepticon.Services.IExcepticonClient)
+  commentId: M:Excepticon.Logging.ExcepticonLoggerProvider.#ctor(Excepticon.Options.ExcepticonOptions,Microsoft.AspNetCore.Http.IHttpContextAccessor,Excepticon.Services.IExcepticonClient)
+  id: '#ctor(Excepticon.Options.ExcepticonOptions,Microsoft.AspNetCore.Http.IHttpContextAccessor,Excepticon.Services.IExcepticonClient)'
+  parent: Excepticon.Logging.ExcepticonLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonLoggerProvider(ExcepticonOptions, IHttpContextAccessor, IExcepticonClient)
+  nameWithType: ExcepticonLoggerProvider.ExcepticonLoggerProvider(ExcepticonOptions, IHttpContextAccessor, IExcepticonClient)
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.ExcepticonLoggerProvider(Excepticon.Options.ExcepticonOptions, Microsoft.AspNetCore.Http.IHttpContextAccessor, Excepticon.Services.IExcepticonClient)
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+    startLine: 15
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Logging
+  syntax:
+    content: public ExcepticonLoggerProvider(ExcepticonOptions excepticonOptions, IHttpContextAccessor httpContextAccessor, IExcepticonClient excepticonClient)
+    parameters:
+    - id: excepticonOptions
+      type: Excepticon.Options.ExcepticonOptions
+    - id: httpContextAccessor
+      type: Microsoft.AspNetCore.Http.IHttpContextAccessor
+    - id: excepticonClient
+      type: Excepticon.Services.IExcepticonClient
+    content.vb: Public Sub New(excepticonOptions As ExcepticonOptions, httpContextAccessor As IHttpContextAccessor, excepticonClient As IExcepticonClient)
+  overload: Excepticon.Logging.ExcepticonLoggerProvider.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.Dispose
+  commentId: M:Excepticon.Logging.ExcepticonLoggerProvider.Dispose
+  id: Dispose
+  parent: Excepticon.Logging.ExcepticonLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ExcepticonLoggerProvider.Dispose()
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Dispose
+    path: ../excepticon-dotnet/src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+    startLine: 25
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Logging
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Excepticon.Logging.ExcepticonLoggerProvider.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger(System.String)
+  commentId: M:Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger(System.String)
+  id: CreateLogger(System.String)
+  parent: Excepticon.Logging.ExcepticonLoggerProvider
+  langs:
+  - csharp
+  - vb
+  name: CreateLogger(String)
+  nameWithType: ExcepticonLoggerProvider.CreateLogger(String)
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger(System.String)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CreateLogger
+    path: ../excepticon-dotnet/src/Excepticon/Logging/ExcepticonLoggerProvider.cs
+    startLine: 29
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Logging
+  syntax:
+    content: public ILogger CreateLogger(string categoryName)
+    parameters:
+    - id: categoryName
+      type: System.String
+    return:
+      type: Microsoft.Extensions.Logging.ILogger
+    content.vb: Public Function CreateLogger(categoryName As String) As ILogger
+  overload: Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger*
+  implements:
+  - Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Excepticon.Logging
+  commentId: N:Excepticon.Logging
+  name: Excepticon.Logging
+  nameWithType: Excepticon.Logging
+  fullName: Excepticon.Logging
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.Extensions.Logging.ILoggerProvider
+  commentId: T:Microsoft.Extensions.Logging.ILoggerProvider
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  name: ILoggerProvider
+  nameWithType: ILoggerProvider
+  fullName: Microsoft.Extensions.Logging.ILoggerProvider
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.Extensions.Logging
+  commentId: N:Microsoft.Extensions.Logging
+  isExternal: true
+  name: Microsoft.Extensions.Logging
+  nameWithType: Microsoft.Extensions.Logging
+  fullName: Microsoft.Extensions.Logging
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.#ctor*
+  commentId: Overload:Excepticon.Logging.ExcepticonLoggerProvider.#ctor
+  name: ExcepticonLoggerProvider
+  nameWithType: ExcepticonLoggerProvider.ExcepticonLoggerProvider
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.ExcepticonLoggerProvider
+- uid: Excepticon.Options.ExcepticonOptions
+  commentId: T:Excepticon.Options.ExcepticonOptions
+  parent: Excepticon.Options
+  name: ExcepticonOptions
+  nameWithType: ExcepticonOptions
+  fullName: Excepticon.Options.ExcepticonOptions
+- uid: Microsoft.AspNetCore.Http.IHttpContextAccessor
+  commentId: T:Microsoft.AspNetCore.Http.IHttpContextAccessor
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: IHttpContextAccessor
+  nameWithType: IHttpContextAccessor
+  fullName: Microsoft.AspNetCore.Http.IHttpContextAccessor
+- uid: Excepticon.Services.IExcepticonClient
+  commentId: T:Excepticon.Services.IExcepticonClient
+  parent: Excepticon.Services
+  name: IExcepticonClient
+  nameWithType: IExcepticonClient
+  fullName: Excepticon.Services.IExcepticonClient
+- uid: Excepticon.Options
+  commentId: N:Excepticon.Options
+  name: Excepticon.Options
+  nameWithType: Excepticon.Options
+  fullName: Excepticon.Options
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
+- uid: Excepticon.Services
+  commentId: N:Excepticon.Services
+  name: Excepticon.Services
+  nameWithType: Excepticon.Services
+  fullName: Excepticon.Services
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.Dispose*
+  commentId: Overload:Excepticon.Logging.ExcepticonLoggerProvider.Dispose
+  name: Dispose
+  nameWithType: ExcepticonLoggerProvider.Dispose
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger*
+  commentId: Overload:Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger
+  name: CreateLogger
+  nameWithType: ExcepticonLoggerProvider.CreateLogger
+  fullName: Excepticon.Logging.ExcepticonLoggerProvider.CreateLogger
+- uid: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+  commentId: M:Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+  parent: Microsoft.Extensions.Logging.ILoggerProvider
+  isExternal: true
+  name: CreateLogger(String)
+  nameWithType: ILoggerProvider.CreateLogger(String)
+  fullName: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+    name: CreateLogger
+    nameWithType: ILoggerProvider.CreateLogger
+    fullName: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger(System.String)
+    name: CreateLogger
+    nameWithType: ILoggerProvider.CreateLogger
+    fullName: Microsoft.Extensions.Logging.ILoggerProvider.CreateLogger
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Extensions.Logging.ILogger
+  commentId: T:Microsoft.Extensions.Logging.ILogger
+  parent: Microsoft.Extensions.Logging
+  isExternal: true
+  name: ILogger
+  nameWithType: ILogger
+  fullName: Microsoft.Extensions.Logging.ILogger

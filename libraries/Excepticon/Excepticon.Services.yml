@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Services
+  commentId: N:Excepticon.Services
+  id: Excepticon.Services
+  children:
+  - Excepticon.Services.ExcepticonClient
+  - Excepticon.Services.IExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: Excepticon.Services
+  nameWithType: Excepticon.Services
+  fullName: Excepticon.Services
+  type: Namespace
+  assemblies:
+  - Excepticon
+references:
+- uid: Excepticon.Services.ExcepticonClient
+  commentId: T:Excepticon.Services.ExcepticonClient
+  name: ExcepticonClient
+  nameWithType: ExcepticonClient
+  fullName: Excepticon.Services.ExcepticonClient
+- uid: Excepticon.Services.IExcepticonClient
+  commentId: T:Excepticon.Services.IExcepticonClient
+  parent: Excepticon.Services
+  name: IExcepticonClient
+  nameWithType: IExcepticonClient
+  fullName: Excepticon.Services.IExcepticonClient
+- uid: Excepticon.Services
+  commentId: N:Excepticon.Services
+  name: Excepticon.Services
+  nameWithType: Excepticon.Services
+  fullName: Excepticon.Services

@@ -1,0 +1,43 @@
+### YamlMime:TableOfContent
+- uid: Excepticon
+  name: Excepticon
+  items:
+  - uid: Excepticon.ExcepticonSdk
+    name: ExcepticonSdk
+- uid: Excepticon.Extensions
+  name: Excepticon.Extensions
+  items:
+  - uid: Excepticon.Extensions.ServiceCollectionExtensions
+    name: ServiceCollectionExtensions
+- uid: Excepticon.Logging
+  name: Excepticon.Logging
+  items:
+  - uid: Excepticon.Logging.ExcepticonLoggerProvider
+    name: ExcepticonLoggerProvider
+  - uid: Excepticon.Logging.LoggingBuilderExtensions
+    name: LoggingBuilderExtensions
+- uid: Excepticon.Model
+  name: Excepticon.Model
+  items:
+  - uid: Excepticon.Model.EnvironmentData
+    name: EnvironmentData
+  - uid: Excepticon.Model.ExceptionInstance
+    name: ExceptionInstance
+  - uid: Excepticon.Model.HttpRequestData
+    name: HttpRequestData
+  - uid: Excepticon.Model.TargetSite
+    name: TargetSite
+  - uid: Excepticon.Model.WebExceptionInstance
+    name: WebExceptionInstance
+- uid: Excepticon.Options
+  name: Excepticon.Options
+  items:
+  - uid: Excepticon.Options.ExcepticonOptions
+    name: ExcepticonOptions
+- uid: Excepticon.Services
+  name: Excepticon.Services
+  items:
+  - uid: Excepticon.Services.ExcepticonClient
+    name: ExcepticonClient
+  - uid: Excepticon.Services.IExcepticonClient
+    name: IExcepticonClient

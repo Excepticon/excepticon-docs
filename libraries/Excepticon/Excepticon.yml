@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon
+  commentId: N:Excepticon
+  id: Excepticon
+  children:
+  - Excepticon.ExcepticonSdk
+  langs:
+  - csharp
+  - vb
+  name: Excepticon
+  nameWithType: Excepticon
+  fullName: Excepticon
+  type: Namespace
+  assemblies:
+  - Excepticon
+references:
+- uid: Excepticon.ExcepticonSdk
+  commentId: T:Excepticon.ExcepticonSdk
+  name: ExcepticonSdk
+  nameWithType: ExcepticonSdk
+  fullName: Excepticon.ExcepticonSdk

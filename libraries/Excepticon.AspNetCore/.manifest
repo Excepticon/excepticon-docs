@@ -1,0 +1,10 @@
+{
+  "Excepticon.AspNetCore": "Excepticon.AspNetCore.yml",
+  "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions": "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.yml",
+  "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.UseExcepticon(Microsoft.AspNetCore.Hosting.IWebHostBuilder)": "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.yml",
+  "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.UseExcepticon(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.Action{Excepticon.Options.ExcepticonOptions})": "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.yml",
+  "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.UseExcepticon(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.Action{Microsoft.AspNetCore.Hosting.WebHostBuilderContext,Excepticon.Options.ExcepticonOptions})": "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.yml",
+  "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.UseExcepticon(Microsoft.AspNetCore.Hosting.IWebHostBuilder,System.String)": "Excepticon.AspNetCore.ExcepticonWebHostBuilderExtensions.yml",
+  "Excepticon.AspNetCore.UseExcepticonExtensions": "Excepticon.AspNetCore.UseExcepticonExtensions.yml",
+  "Excepticon.AspNetCore.UseExcepticonExtensions.UseExcepticon(Microsoft.AspNetCore.Builder.IApplicationBuilder)": "Excepticon.AspNetCore.UseExcepticonExtensions.yml"
+}

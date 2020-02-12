@@ -1,0 +1,759 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Services.ExcepticonClient
+  commentId: T:Excepticon.Services.ExcepticonClient
+  id: ExcepticonClient
+  parent: Excepticon.Services
+  children:
+  - Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
+  - Excepticon.Services.ExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  - Excepticon.Services.ExcepticonClient.CaptureException(System.Exception)
+  - Excepticon.Services.ExcepticonClient.Dispose
+  - Excepticon.Services.ExcepticonClient.FlushAsync(System.TimeSpan)
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonClient
+  nameWithType: ExcepticonClient
+  fullName: Excepticon.Services.ExcepticonClient
+  type: Class
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExcepticonClient
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 9
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: 'public class ExcepticonClient : IExcepticonClient, IDisposable'
+    content.vb: >-
+      Public Class ExcepticonClient
+          Implements IExcepticonClient, IDisposable
+  inheritance:
+  - System.Object
+  implements:
+  - Excepticon.Services.IExcepticonClient
+  - System.IDisposable
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
+  commentId: M:Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
+  id: '#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)'
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonClient(ExcepticonOptions, IBackgroundWorker)
+  nameWithType: ExcepticonClient.ExcepticonClient(ExcepticonOptions, IBackgroundWorker)
+  fullName: Excepticon.Services.ExcepticonClient.ExcepticonClient(Excepticon.Options.ExcepticonOptions, Excepticon.Services.IBackgroundWorker)
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 17
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public ExcepticonClient(ExcepticonOptions options, IBackgroundWorker worker)
+    parameters:
+    - id: options
+      type: Excepticon.Options.ExcepticonOptions
+    - id: worker
+      type: Excepticon.Services.IBackgroundWorker
+    content.vb: Public Sub New(options As ExcepticonOptions, worker As IBackgroundWorker)
+  overload: Excepticon.Services.ExcepticonClient.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Services.ExcepticonClient.CaptureException(System.Exception)
+  commentId: M:Excepticon.Services.ExcepticonClient.CaptureException(System.Exception)
+  id: CaptureException(System.Exception)
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(Exception)
+  nameWithType: ExcepticonClient.CaptureException(Exception)
+  fullName: Excepticon.Services.ExcepticonClient.CaptureException(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 32
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public void CaptureException(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Public Sub CaptureException(ex As Exception)
+  overload: Excepticon.Services.ExcepticonClient.CaptureException*
+  implements:
+  - Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Services.ExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  commentId: M:Excepticon.Services.ExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  id: CaptureException(Excepticon.Model.ExceptionInstance)
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(ExceptionInstance)
+  nameWithType: ExcepticonClient.CaptureException(ExceptionInstance)
+  fullName: Excepticon.Services.ExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 39
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public void CaptureException(ExceptionInstance instance)
+    parameters:
+    - id: instance
+      type: Excepticon.Model.ExceptionInstance
+    content.vb: Public Sub CaptureException(instance As ExceptionInstance)
+  overload: Excepticon.Services.ExcepticonClient.CaptureException*
+  implements:
+  - Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Services.ExcepticonClient.FlushAsync(System.TimeSpan)
+  commentId: M:Excepticon.Services.ExcepticonClient.FlushAsync(System.TimeSpan)
+  id: FlushAsync(System.TimeSpan)
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(TimeSpan)
+  nameWithType: ExcepticonClient.FlushAsync(TimeSpan)
+  fullName: Excepticon.Services.ExcepticonClient.FlushAsync(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: FlushAsync
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 49
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public Task FlushAsync(TimeSpan timeout)
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Public Function FlushAsync(timeout As TimeSpan) As Task
+  overload: Excepticon.Services.ExcepticonClient.FlushAsync*
+  implements:
+  - Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Services.ExcepticonClient.Dispose
+  commentId: M:Excepticon.Services.ExcepticonClient.Dispose
+  id: Dispose
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: ExcepticonClient.Dispose()
+  fullName: Excepticon.Services.ExcepticonClient.Dispose()
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Dispose
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 56
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Excepticon.Services.ExcepticonClient.Dispose*
+  implements:
+  - System.IDisposable.Dispose
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Excepticon.Services
+  commentId: N:Excepticon.Services
+  name: Excepticon.Services
+  nameWithType: Excepticon.Services
+  fullName: Excepticon.Services
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Excepticon.Services.IExcepticonClient
+  commentId: T:Excepticon.Services.IExcepticonClient
+  parent: Excepticon.Services
+  name: IExcepticonClient
+  nameWithType: IExcepticonClient
+  fullName: Excepticon.Services.IExcepticonClient
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Excepticon.Services.ExcepticonClient.#ctor*
+  commentId: Overload:Excepticon.Services.ExcepticonClient.#ctor
+  name: ExcepticonClient
+  nameWithType: ExcepticonClient.ExcepticonClient
+  fullName: Excepticon.Services.ExcepticonClient.ExcepticonClient
+- uid: Excepticon.Options.ExcepticonOptions
+  commentId: T:Excepticon.Options.ExcepticonOptions
+  parent: Excepticon.Options
+  name: ExcepticonOptions
+  nameWithType: ExcepticonOptions
+  fullName: Excepticon.Options.ExcepticonOptions
+- uid: Excepticon.Services.IBackgroundWorker
+  commentId: T:Excepticon.Services.IBackgroundWorker
+  parent: Excepticon.Services
+  name: IBackgroundWorker
+  nameWithType: IBackgroundWorker
+  fullName: Excepticon.Services.IBackgroundWorker
+- uid: Excepticon.Options
+  commentId: N:Excepticon.Options
+  name: Excepticon.Options
+  nameWithType: Excepticon.Options
+  fullName: Excepticon.Options
+- uid: Excepticon.Services.ExcepticonClient.CaptureException*
+  commentId: Overload:Excepticon.Services.ExcepticonClient.CaptureException
+  name: CaptureException
+  nameWithType: ExcepticonClient.CaptureException
+  fullName: Excepticon.Services.ExcepticonClient.CaptureException
+- uid: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  commentId: M:Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  parent: Excepticon.Services.IExcepticonClient
+  isExternal: true
+  name: CaptureException(Exception)
+  nameWithType: IExcepticonClient.CaptureException(Exception)
+  fullName: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  spec.csharp:
+  - uid: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+    name: CaptureException
+    nameWithType: IExcepticonClient.CaptureException
+    fullName: Excepticon.Services.IExcepticonClient.CaptureException
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+    name: CaptureException
+    nameWithType: IExcepticonClient.CaptureException
+    fullName: Excepticon.Services.IExcepticonClient.CaptureException
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Exception
+    name: Exception
+    nameWithType: Exception
+    fullName: System.Exception
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  commentId: M:Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  parent: Excepticon.Services.IExcepticonClient
+  name: CaptureException(ExceptionInstance)
+  nameWithType: IExcepticonClient.CaptureException(ExceptionInstance)
+  fullName: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  spec.csharp:
+  - uid: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+    name: CaptureException
+    nameWithType: IExcepticonClient.CaptureException
+    fullName: Excepticon.Services.IExcepticonClient.CaptureException
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Excepticon.Model.ExceptionInstance
+    name: ExceptionInstance
+    nameWithType: ExceptionInstance
+    fullName: Excepticon.Model.ExceptionInstance
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+    name: CaptureException
+    nameWithType: IExcepticonClient.CaptureException
+    fullName: Excepticon.Services.IExcepticonClient.CaptureException
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Excepticon.Model.ExceptionInstance
+    name: ExceptionInstance
+    nameWithType: ExceptionInstance
+    fullName: Excepticon.Model.ExceptionInstance
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Excepticon.Model.ExceptionInstance
+  commentId: T:Excepticon.Model.ExceptionInstance
+  parent: Excepticon.Model
+  name: ExceptionInstance
+  nameWithType: ExceptionInstance
+  fullName: Excepticon.Model.ExceptionInstance
+- uid: Excepticon.Model
+  commentId: N:Excepticon.Model
+  name: Excepticon.Model
+  nameWithType: Excepticon.Model
+  fullName: Excepticon.Model
+- uid: Excepticon.Services.ExcepticonClient.FlushAsync*
+  commentId: Overload:Excepticon.Services.ExcepticonClient.FlushAsync
+  name: FlushAsync
+  nameWithType: ExcepticonClient.FlushAsync
+  fullName: Excepticon.Services.ExcepticonClient.FlushAsync
+- uid: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  commentId: M:Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  parent: Excepticon.Services.IExcepticonClient
+  isExternal: true
+  name: FlushAsync(TimeSpan)
+  nameWithType: IExcepticonClient.FlushAsync(TimeSpan)
+  fullName: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  spec.csharp:
+  - uid: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+    name: FlushAsync
+    nameWithType: IExcepticonClient.FlushAsync
+    fullName: Excepticon.Services.IExcepticonClient.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+    name: FlushAsync
+    nameWithType: IExcepticonClient.FlushAsync
+    fullName: Excepticon.Services.IExcepticonClient.FlushAsync
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.TimeSpan
+    name: TimeSpan
+    nameWithType: TimeSpan
+    fullName: System.TimeSpan
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: Excepticon.Services.ExcepticonClient.Dispose*
+  commentId: Overload:Excepticon.Services.ExcepticonClient.Dispose
+  name: Dispose
+  nameWithType: ExcepticonClient.Dispose
+  fullName: Excepticon.Services.ExcepticonClient.Dispose
+- uid: System.IDisposable.Dispose
+  commentId: M:System.IDisposable.Dispose
+  parent: System.IDisposable
+  isExternal: true
+  name: Dispose()
+  nameWithType: IDisposable.Dispose()
+  fullName: System.IDisposable.Dispose()
+  spec.csharp:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.IDisposable.Dispose
+    name: Dispose
+    nameWithType: IDisposable.Dispose
+    fullName: System.IDisposable.Dispose
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

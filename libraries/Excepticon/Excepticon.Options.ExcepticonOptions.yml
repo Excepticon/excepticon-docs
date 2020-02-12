@@ -1,0 +1,727 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Options.ExcepticonOptions
+  commentId: T:Excepticon.Options.ExcepticonOptions
+  id: ExcepticonOptions
+  parent: Excepticon.Options
+  children:
+  - Excepticon.Options.ExcepticonOptions.#ctor
+  - Excepticon.Options.ExcepticonOptions.#ctor(System.String)
+  - Excepticon.Options.ExcepticonOptions.ApiKey
+  - Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+  - Excepticon.Options.ExcepticonOptions.FlushTimeout
+  - Excepticon.Options.ExcepticonOptions.MaxQueueItems
+  - Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+  - Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+  - Excepticon.Options.ExcepticonOptions.Url
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonOptions
+  nameWithType: ExcepticonOptions
+  fullName: Excepticon.Options.ExcepticonOptions
+  type: Class
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExcepticonOptions
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 6
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public class ExcepticonOptions
+    content.vb: Public Class ExcepticonOptions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Excepticon.Options.ExcepticonOptions.#ctor
+  commentId: M:Excepticon.Options.ExcepticonOptions.#ctor
+  id: '#ctor'
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonOptions()
+  nameWithType: ExcepticonOptions.ExcepticonOptions()
+  fullName: Excepticon.Options.ExcepticonOptions.ExcepticonOptions()
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 8
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public ExcepticonOptions()
+    content.vb: Public Sub New
+  overload: Excepticon.Options.ExcepticonOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Options.ExcepticonOptions.#ctor(System.String)
+  commentId: M:Excepticon.Options.ExcepticonOptions.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ExcepticonOptions(String)
+  nameWithType: ExcepticonOptions.ExcepticonOptions(String)
+  fullName: Excepticon.Options.ExcepticonOptions.ExcepticonOptions(System.String)
+  type: Constructor
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: .ctor
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 17
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public ExcepticonOptions(string apiKey)
+    parameters:
+    - id: apiKey
+      type: System.String
+    content.vb: Public Sub New(apiKey As String)
+  overload: Excepticon.Options.ExcepticonOptions.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Options.ExcepticonOptions.ApiKey
+  commentId: P:Excepticon.Options.ExcepticonOptions.ApiKey
+  id: ApiKey
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ApiKey
+  nameWithType: ExcepticonOptions.ApiKey
+  fullName: Excepticon.Options.ExcepticonOptions.ApiKey
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ApiKey
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 22
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public string ApiKey { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ApiKey As String
+  overload: Excepticon.Options.ExcepticonOptions.ApiKey*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+  commentId: P:Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+  id: ShouldSwallowExceptions
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ShouldSwallowExceptions
+  nameWithType: ExcepticonOptions.ShouldSwallowExceptions
+  fullName: Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ShouldSwallowExceptions
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 24
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public bool ShouldSwallowExceptions { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ShouldSwallowExceptions As Boolean
+  overload: Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+  commentId: P:Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+  id: ShutdownTimeout
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ShutdownTimeout
+  nameWithType: ExcepticonOptions.ShutdownTimeout
+  fullName: Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ShutdownTimeout
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 26
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public TimeSpan ShutdownTimeout { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property ShutdownTimeout As TimeSpan
+  overload: Excepticon.Options.ExcepticonOptions.ShutdownTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Excepticon.Options.ExcepticonOptions.MaxQueueItems
+  commentId: P:Excepticon.Options.ExcepticonOptions.MaxQueueItems
+  id: MaxQueueItems
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: MaxQueueItems
+  nameWithType: ExcepticonOptions.MaxQueueItems
+  fullName: Excepticon.Options.ExcepticonOptions.MaxQueueItems
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: MaxQueueItems
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 28
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public int MaxQueueItems { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property MaxQueueItems As Integer
+  overload: Excepticon.Options.ExcepticonOptions.MaxQueueItems*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+  commentId: P:Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+  id: FlushOnCompletedRequest
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: FlushOnCompletedRequest
+  nameWithType: ExcepticonOptions.FlushOnCompletedRequest
+  fullName: Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: FlushOnCompletedRequest
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 30
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public bool FlushOnCompletedRequest { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property FlushOnCompletedRequest As Boolean
+  overload: Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Excepticon.Options.ExcepticonOptions.FlushTimeout
+  commentId: P:Excepticon.Options.ExcepticonOptions.FlushTimeout
+  id: FlushTimeout
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: FlushTimeout
+  nameWithType: ExcepticonOptions.FlushTimeout
+  fullName: Excepticon.Options.ExcepticonOptions.FlushTimeout
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: FlushTimeout
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 32
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public TimeSpan FlushTimeout { get; }
+    parameters: []
+    return:
+      type: System.TimeSpan
+    content.vb: Public ReadOnly Property FlushTimeout As TimeSpan
+  overload: Excepticon.Options.ExcepticonOptions.FlushTimeout*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Excepticon.Options.ExcepticonOptions.Url
+  commentId: P:Excepticon.Options.ExcepticonOptions.Url
+  id: Url
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: Url
+  nameWithType: ExcepticonOptions.Url
+  fullName: Excepticon.Options.ExcepticonOptions.Url
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: Url
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 34
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public string Url { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Url As String
+  overload: Excepticon.Options.ExcepticonOptions.Url*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Excepticon.Options
+  commentId: N:Excepticon.Options
+  name: Excepticon.Options
+  nameWithType: Excepticon.Options
+  fullName: Excepticon.Options
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Excepticon.Options.ExcepticonOptions.#ctor*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.#ctor
+  name: ExcepticonOptions
+  nameWithType: ExcepticonOptions.ExcepticonOptions
+  fullName: Excepticon.Options.ExcepticonOptions.ExcepticonOptions
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Excepticon.Options.ExcepticonOptions.ApiKey*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.ApiKey
+  name: ApiKey
+  nameWithType: ExcepticonOptions.ApiKey
+  fullName: Excepticon.Options.ExcepticonOptions.ApiKey
+- uid: Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+  name: ShouldSwallowExceptions
+  nameWithType: ExcepticonOptions.ShouldSwallowExceptions
+  fullName: Excepticon.Options.ExcepticonOptions.ShouldSwallowExceptions
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Excepticon.Options.ExcepticonOptions.ShutdownTimeout*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+  name: ShutdownTimeout
+  nameWithType: ExcepticonOptions.ShutdownTimeout
+  fullName: Excepticon.Options.ExcepticonOptions.ShutdownTimeout
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: Excepticon.Options.ExcepticonOptions.MaxQueueItems*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.MaxQueueItems
+  name: MaxQueueItems
+  nameWithType: ExcepticonOptions.MaxQueueItems
+  fullName: Excepticon.Options.ExcepticonOptions.MaxQueueItems
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+  name: FlushOnCompletedRequest
+  nameWithType: ExcepticonOptions.FlushOnCompletedRequest
+  fullName: Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
+- uid: Excepticon.Options.ExcepticonOptions.FlushTimeout*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.FlushTimeout
+  name: FlushTimeout
+  nameWithType: ExcepticonOptions.FlushTimeout
+  fullName: Excepticon.Options.ExcepticonOptions.FlushTimeout
+- uid: Excepticon.Options.ExcepticonOptions.Url*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.Url
+  name: Url
+  nameWithType: ExcepticonOptions.Url
+  fullName: Excepticon.Options.ExcepticonOptions.Url

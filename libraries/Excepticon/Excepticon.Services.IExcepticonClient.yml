@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Excepticon.Services.IExcepticonClient
+  commentId: T:Excepticon.Services.IExcepticonClient
+  id: IExcepticonClient
+  parent: Excepticon.Services
+  children:
+  - Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  - Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  - Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  langs:
+  - csharp
+  - vb
+  name: IExcepticonClient
+  nameWithType: IExcepticonClient
+  fullName: Excepticon.Services.IExcepticonClient
+  type: Interface
+  source:
+    remote:
+      path: src/Excepticon/Services/IExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: IExcepticonClient
+    path: ../excepticon-dotnet/src/Excepticon/Services/IExcepticonClient.cs
+    startLine: 6
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public interface IExcepticonClient
+    content.vb: Public Interface IExcepticonClient
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  commentId: M:Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  id: CaptureException(System.Exception)
+  parent: Excepticon.Services.IExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(Exception)
+  nameWithType: IExcepticonClient.CaptureException(Exception)
+  fullName: Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/IExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/Services/IExcepticonClient.cs
+    startLine: 8
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: void CaptureException(Exception ex)
+    parameters:
+    - id: ex
+      type: System.Exception
+    content.vb: Sub CaptureException(ex As Exception)
+  overload: Excepticon.Services.IExcepticonClient.CaptureException*
+- uid: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  commentId: M:Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  id: CaptureException(Excepticon.Model.ExceptionInstance)
+  parent: Excepticon.Services.IExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(ExceptionInstance)
+  nameWithType: IExcepticonClient.CaptureException(ExceptionInstance)
+  fullName: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/IExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/Services/IExcepticonClient.cs
+    startLine: 10
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: void CaptureException(ExceptionInstance instance)
+    parameters:
+    - id: instance
+      type: Excepticon.Model.ExceptionInstance
+    content.vb: Sub CaptureException(instance As ExceptionInstance)
+  overload: Excepticon.Services.IExcepticonClient.CaptureException*
+- uid: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  commentId: M:Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  id: FlushAsync(System.TimeSpan)
+  parent: Excepticon.Services.IExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: FlushAsync(TimeSpan)
+  nameWithType: IExcepticonClient.FlushAsync(TimeSpan)
+  fullName: Excepticon.Services.IExcepticonClient.FlushAsync(System.TimeSpan)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/IExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: FlushAsync
+    path: ../excepticon-dotnet/src/Excepticon/Services/IExcepticonClient.cs
+    startLine: 12
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: Task FlushAsync(TimeSpan timeout)
+    parameters:
+    - id: timeout
+      type: System.TimeSpan
+    return:
+      type: System.Threading.Tasks.Task
+    content.vb: Function FlushAsync(timeout As TimeSpan) As Task
+  overload: Excepticon.Services.IExcepticonClient.FlushAsync*
+references:
+- uid: Excepticon.Services
+  commentId: N:Excepticon.Services
+  name: Excepticon.Services
+  nameWithType: Excepticon.Services
+  fullName: Excepticon.Services
+- uid: Excepticon.Services.IExcepticonClient.CaptureException*
+  commentId: Overload:Excepticon.Services.IExcepticonClient.CaptureException
+  name: CaptureException
+  nameWithType: IExcepticonClient.CaptureException
+  fullName: Excepticon.Services.IExcepticonClient.CaptureException
+- uid: System.Exception
+  commentId: T:System.Exception
+  parent: System
+  isExternal: true
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Excepticon.Model.ExceptionInstance
+  commentId: T:Excepticon.Model.ExceptionInstance
+  parent: Excepticon.Model
+  name: ExceptionInstance
+  nameWithType: ExceptionInstance
+  fullName: Excepticon.Model.ExceptionInstance
+- uid: Excepticon.Model
+  commentId: N:Excepticon.Model
+  name: Excepticon.Model
+  nameWithType: Excepticon.Model
+  fullName: Excepticon.Model
+- uid: Excepticon.Services.IExcepticonClient.FlushAsync*
+  commentId: Overload:Excepticon.Services.IExcepticonClient.FlushAsync
+  name: FlushAsync
+  nameWithType: IExcepticonClient.FlushAsync
+  fullName: Excepticon.Services.IExcepticonClient.FlushAsync
+- uid: System.TimeSpan
+  commentId: T:System.TimeSpan
+  parent: System
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: System.TimeSpan
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
