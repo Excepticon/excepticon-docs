@@ -48,9 +48,17 @@ button:hover, button:focus, a:hover, a:focus {
     padding-top: 15px;
 }
 
+.grid {
+    padding-left: 15px;
+}
+
 @media (min-width: 768px) {
     .return-link-container {
         padding-bottom: 15px;
+    }
+
+    .grid {
+        padding-left: 0;
     }
 }
 
