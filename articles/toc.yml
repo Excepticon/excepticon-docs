@@ -1,6 +1,8 @@
 - name: Getting Started
   href: getting-started/index.md
   items: 
+    - name: Basic Usage
+      href: getting-started/basic-usage.md
     - name: ASP.NET Core
       href: getting-started/asp-net-core.md
     - name: Generic Host
@@ -9,11 +11,13 @@
       href: getting-started/console.md
     - name: Azure Functions
       href: getting-started/azure-functions.md
-- name: Excepticon Web Application
-  href: web-application/index.md
-  items:
-    - name: Projects
-      href: web-application/projects.md
-    - name: Exceptions
-      href: web-application/exceptions.md
+    - name: WPF App
+      href: getting-started/wpf.md
+# - name: Excepticon Web Application
+#   href: web-application/index.md
+#   items:
+#     - name: Projects
+#       href: web-application/projects.md
+#     - name: Exceptions
+#       href: web-application/exceptions.md
 

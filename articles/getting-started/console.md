@@ -22,14 +22,14 @@ dotnet add package Excepticon
 
 ### 2. Initialize the ExcepticonSdk
 
-In Program.cs, intialize the `ExcepticonSdk` with you project's ApiKey
+In Program.cs, intialize the `ExcepticonSdk` with you project's ApiKey.
 
 Example:
 
 ```        csharp
 static void Main(string[] args)
 {
-    using (ExcepticonSdk.Init("{Your ApiKey Here"))
+    using (ExcepticonSdk.Init("{Your ApiKey Here}"))
     {
         // Application logic
     }
