@@ -55,7 +55,7 @@ In the example above, the `local.settings.json` configuration is registered, and
 
 You project's `ApiKey` can be obtained from the Project Settings page for your project of the Excepticon web app.
 
-The `ApiKey` can also be stored and retrieved from an environment variable, and app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
+The `ApiKey` can also be stored and retrieved from an environment variable, an app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
 
 
 
