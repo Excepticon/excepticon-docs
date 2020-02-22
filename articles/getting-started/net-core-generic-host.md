@@ -22,9 +22,7 @@ dotnet add package Excepticon
 
 ### 2. Add Excepticon When Creating the IHostBuilder
 
-In Program.cs, add a call to `.AddExcepticon()` when configuring logging for your `IHostBuilder`.
-
-Example:
+In Program.cs, add a call to `.AddExcepticon()` when configuring logging for your `IHostBuilder`:
 
 ```        csharp
 static Task Main(string[] args) =>
@@ -46,7 +44,7 @@ static Task Main(string[] args) =>
 
 
 
-### 3. Add Excepticon ApiKey to Configuration
+### 3. Add Excepticon API Key to Configuration
 
 The `AddExcepticon()` method has a few overloads.  When the overload with no parameters is used (as shown above), the Exception ApiKey will attempt to be retrieved from one of the registered .NET Core [configuration providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1).
 
@@ -60,15 +58,15 @@ In the example above, the `appsettings.json` configuration is registered, and th
 }
 ```
 
-You project's `ApiKey` can be obtained from the Project Settings page for your project of the Excepticon web app.
+You project's API Key can be obtained from the Project Settings page for your project of the Excepticon web app.
 
-The `ApiKey` can also be stored and retrieved from an environment variable, and app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
+The API Key can also be stored and retrieved from an environment variable, and app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
 
 
 
 ### Alternatives
 
-Though storing the Excepticon ApiKey as a properly secured configuration setting and accessing it via a configuration provider is the preferred method, there is an overload for `.AddExcepticon()` that lets you pass your project's ApiKey directly in code:
+Though storing the Excepticon API Key as a properly secured configuration setting and accessing it via a configuration provider is the preferred method, there is an overload for `.AddExcepticon()` that lets you pass your project's ApiKey directly in code:
 
 ```csharp
 l.AddExcepticon("{Your ApiKey Here");

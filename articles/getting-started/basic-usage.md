@@ -22,7 +22,7 @@ dotnet add package Excepticon
 
 ### 2. Initialize the ExcepticonSdk
 
-Initialize the `ExcepticonSdk` with your project's ApiKey:
+Initialize the `ExcepticonSdk` with your project's API Key:
 
 ```        csharp
 static void Main(string[] args)
@@ -39,7 +39,7 @@ static void Main(string[] args)
 
 Unhandled exceptions within the using block will automatically be sent to Excepticon.
 
-You project's `ApiKey` can be obtained from the Project Settings page for your project of the Excepticon web app.
+You project's API Key can be obtained from the Project Settings page for your project of the Excepticon web app.
 
 
 

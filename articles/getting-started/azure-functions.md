@@ -26,8 +26,6 @@ dotnet add package Excepticon
 
 In your Azure Function, initialize the ExcepticonSdk and use it to capture any exceptions that occur during the execution of your function:
 
-Example:
-
 ```        csharp
 [FunctionName("Function1")]
 public static void Run([TimerTrigger("0 */5 * * * *", RunOnStartup = true)]TimerInfo myTimer, ILogger log)
@@ -48,9 +46,9 @@ public static void Run([TimerTrigger("0 */5 * * * *", RunOnStartup = true)]Timer
 
 
 
-### 3. Add Excepticon ApiKey to Configuration
+### 3. Add Excepticon API Key to Configuration
 
-In this example, I pass an instance of `ExcepticonOptions` which contains my project's ApiKey to the `ExcepticonSdk.Init` method.  `ExcepticonOptions` is initialized on startup from the app's configuration, and it is registered as a property on the `FunctionsAppSettings` object, which is registered with the DI container and directed into the Azure Function:
+In this example, I pass an instance of `ExcepticonOptions` which contains my project's API Key to the `ExcepticonSdk.Init` method.  `ExcepticonOptions` is initialized on startup from the app's configuration, and it is registered as a property on the `FunctionsAppSettings` object, which is registered with the DI container and directed into the Azure Function:
 
 FunctionsAppSettings:
 
@@ -90,11 +88,11 @@ public TestExceptionTimerFunction(IFunctionsAppSettings appSettings)
 }
 ```
 
-The Exception ApiKey will attempt to be retrieved from one of the registered .NET Core [configuration providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1).
+The Exception API Key will attempt to be retrieved from one of the registered .NET Core [configuration providers](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-3.1).
 
-You project's `ApiKey` can be obtained from the Project Settings page for your project of the Excepticon web app.
+You project's API Key can be obtained from the Project Settings page for your project of the Excepticon web app.
 
-The `ApiKey` can also be stored and retrieved from an environment variable, and app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
+The API Key can also be stored and retrieved from an environment variable, and app setting on the Azure app service, Azure key vault, or any other registered configuration provider, as long as it is nested in an `Excepticon` subsection.
 
 
 
