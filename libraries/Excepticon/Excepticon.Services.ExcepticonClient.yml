@@ -5,9 +5,10 @@ items:
   id: ExcepticonClient
   parent: Excepticon.Services
   children:
-  - Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
+  - Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IQueueManager)
   - Excepticon.Services.ExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
   - Excepticon.Services.ExcepticonClient.CaptureException(System.Exception)
+  - Excepticon.Services.ExcepticonClient.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
   - Excepticon.Services.ExcepticonClient.Dispose
   - Excepticon.Services.ExcepticonClient.FlushAsync(System.TimeSpan)
   langs:
@@ -24,7 +25,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ExcepticonClient
     path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
-    startLine: 9
+    startLine: 12
   assemblies:
   - Excepticon
   namespace: Excepticon.Services
@@ -52,16 +53,16 @@ items:
   modifiers.vb:
   - Public
   - Class
-- uid: Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
-  commentId: M:Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)
-  id: '#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IBackgroundWorker)'
+- uid: Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IQueueManager)
+  commentId: M:Excepticon.Services.ExcepticonClient.#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IQueueManager)
+  id: '#ctor(Excepticon.Options.ExcepticonOptions,Excepticon.Services.IQueueManager)'
   parent: Excepticon.Services.ExcepticonClient
   langs:
   - csharp
   - vb
-  name: ExcepticonClient(ExcepticonOptions, IBackgroundWorker)
-  nameWithType: ExcepticonClient.ExcepticonClient(ExcepticonOptions, IBackgroundWorker)
-  fullName: Excepticon.Services.ExcepticonClient.ExcepticonClient(Excepticon.Options.ExcepticonOptions, Excepticon.Services.IBackgroundWorker)
+  name: ExcepticonClient(ExcepticonOptions, IQueueManager)
+  nameWithType: ExcepticonClient.ExcepticonClient(ExcepticonOptions, IQueueManager)
+  fullName: Excepticon.Services.ExcepticonClient.ExcepticonClient(Excepticon.Options.ExcepticonOptions, Excepticon.Services.IQueueManager)
   type: Constructor
   source:
     remote:
@@ -70,18 +71,18 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: .ctor
     path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
-    startLine: 17
+    startLine: 20
   assemblies:
   - Excepticon
   namespace: Excepticon.Services
   syntax:
-    content: public ExcepticonClient(ExcepticonOptions options, IBackgroundWorker worker)
+    content: public ExcepticonClient(ExcepticonOptions options, IQueueManager queueManager)
     parameters:
     - id: options
       type: Excepticon.Options.ExcepticonOptions
-    - id: worker
-      type: Excepticon.Services.IBackgroundWorker
-    content.vb: Public Sub New(options As ExcepticonOptions, worker As IBackgroundWorker)
+    - id: queueManager
+      type: Excepticon.Services.IQueueManager
+    content.vb: Public Sub New(options As ExcepticonOptions, queueManager As IQueueManager)
   overload: Excepticon.Services.ExcepticonClient.#ctor*
   modifiers.csharp:
   - public
@@ -105,7 +106,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: CaptureException
     path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
-    startLine: 32
+    startLine: 31
   assemblies:
   - Excepticon
   namespace: Excepticon.Services
@@ -118,6 +119,41 @@ items:
   overload: Excepticon.Services.ExcepticonClient.CaptureException*
   implements:
   - Excepticon.Services.IExcepticonClient.CaptureException(System.Exception)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Services.ExcepticonClient.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Excepticon.Services.ExcepticonClient.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  id: CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  parent: Excepticon.Services.ExcepticonClient
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(Exception, HttpContext)
+  nameWithType: ExcepticonClient.CaptureException(Exception, HttpContext)
+  fullName: Excepticon.Services.ExcepticonClient.CaptureException(System.Exception, Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/Services/ExcepticonClient.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
+    startLine: 33
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Services
+  syntax:
+    content: public void CaptureException(Exception ex, HttpContext httpContext)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    content.vb: Public Sub CaptureException(ex As Exception, httpContext As HttpContext)
+  overload: Excepticon.Services.ExcepticonClient.CaptureException*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -140,7 +176,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: CaptureException
     path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
-    startLine: 39
+    startLine: 35
   assemblies:
   - Excepticon
   namespace: Excepticon.Services
@@ -212,7 +248,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: Dispose
     path: ../excepticon-dotnet/src/Excepticon/Services/ExcepticonClient.cs
-    startLine: 56
+    startLine: 53
   assemblies:
   - Excepticon
   namespace: Excepticon.Services
@@ -548,12 +584,12 @@ references:
   name: ExcepticonOptions
   nameWithType: ExcepticonOptions
   fullName: Excepticon.Options.ExcepticonOptions
-- uid: Excepticon.Services.IBackgroundWorker
-  commentId: T:Excepticon.Services.IBackgroundWorker
+- uid: Excepticon.Services.IQueueManager
+  commentId: T:Excepticon.Services.IQueueManager
   parent: Excepticon.Services
-  name: IBackgroundWorker
-  nameWithType: IBackgroundWorker
-  fullName: Excepticon.Services.IBackgroundWorker
+  name: IQueueManager
+  nameWithType: IQueueManager
+  fullName: Excepticon.Services.IQueueManager
 - uid: Excepticon.Options
   commentId: N:Excepticon.Options
   name: Excepticon.Options
@@ -610,6 +646,19 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
 - uid: Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
   commentId: M:Excepticon.Services.IExcepticonClient.CaptureException(Excepticon.Model.ExceptionInstance)
   parent: Excepticon.Services.IExcepticonClient

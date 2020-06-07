@@ -6,6 +6,7 @@ items:
   parent: Excepticon
   children:
   - Excepticon.ExcepticonSdk.CaptureException(System.Exception)
+  - Excepticon.ExcepticonSdk.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
   - Excepticon.ExcepticonSdk.FlushAsync(System.TimeSpan)
   - Excepticon.ExcepticonSdk.Init(Excepticon.Options.ExcepticonOptions)
   - Excepticon.ExcepticonSdk.Init(System.String)
@@ -23,7 +24,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ExcepticonSdk
     path: ../excepticon-dotnet/src/Excepticon/ExcepticonSdk.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - Excepticon
   namespace: Excepticon
@@ -65,7 +66,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: Init
     path: ../excepticon-dotnet/src/Excepticon/ExcepticonSdk.cs
-    startLine: 12
+    startLine: 13
   assemblies:
   - Excepticon
   namespace: Excepticon
@@ -102,7 +103,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: Init
     path: ../excepticon-dotnet/src/Excepticon/ExcepticonSdk.cs
-    startLine: 17
+    startLine: 15
   assemblies:
   - Excepticon
   namespace: Excepticon
@@ -139,7 +140,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: CaptureException
     path: ../excepticon-dotnet/src/Excepticon/ExcepticonSdk.cs
-    startLine: 24
+    startLine: 22
   assemblies:
   - Excepticon
   namespace: Excepticon
@@ -149,6 +150,43 @@ items:
     - id: ex
       type: System.Exception
     content.vb: Public Shared Sub CaptureException(ex As Exception)
+  overload: Excepticon.ExcepticonSdk.CaptureException*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Excepticon.ExcepticonSdk.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  commentId: M:Excepticon.ExcepticonSdk.CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  id: CaptureException(System.Exception,Microsoft.AspNetCore.Http.HttpContext)
+  parent: Excepticon.ExcepticonSdk
+  langs:
+  - csharp
+  - vb
+  name: CaptureException(Exception, HttpContext)
+  nameWithType: ExcepticonSdk.CaptureException(Exception, HttpContext)
+  fullName: Excepticon.ExcepticonSdk.CaptureException(System.Exception, Microsoft.AspNetCore.Http.HttpContext)
+  type: Method
+  source:
+    remote:
+      path: src/Excepticon/ExcepticonSdk.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: CaptureException
+    path: ../excepticon-dotnet/src/Excepticon/ExcepticonSdk.cs
+    startLine: 24
+  assemblies:
+  - Excepticon
+  namespace: Excepticon
+  syntax:
+    content: public static void CaptureException(Exception ex, HttpContext httpContext)
+    parameters:
+    - id: ex
+      type: System.Exception
+    - id: httpContext
+      type: Microsoft.AspNetCore.Http.HttpContext
+    content.vb: Public Shared Sub CaptureException(ex As Exception, httpContext As HttpContext)
   overload: Excepticon.ExcepticonSdk.CaptureException*
   modifiers.csharp:
   - public
@@ -533,6 +571,19 @@ references:
   name: Exception
   nameWithType: Exception
   fullName: System.Exception
+- uid: Microsoft.AspNetCore.Http.HttpContext
+  commentId: T:Microsoft.AspNetCore.Http.HttpContext
+  parent: Microsoft.AspNetCore.Http
+  isExternal: true
+  name: HttpContext
+  nameWithType: HttpContext
+  fullName: Microsoft.AspNetCore.Http.HttpContext
+- uid: Microsoft.AspNetCore.Http
+  commentId: N:Microsoft.AspNetCore.Http
+  isExternal: true
+  name: Microsoft.AspNetCore.Http
+  nameWithType: Microsoft.AspNetCore.Http
+  fullName: Microsoft.AspNetCore.Http
 - uid: Excepticon.ExcepticonSdk.FlushAsync*
   commentId: Overload:Excepticon.ExcepticonSdk.FlushAsync
   name: FlushAsync

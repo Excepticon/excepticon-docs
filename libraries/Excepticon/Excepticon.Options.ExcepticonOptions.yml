@@ -8,6 +8,8 @@ items:
   - Excepticon.Options.ExcepticonOptions.#ctor
   - Excepticon.Options.ExcepticonOptions.#ctor(System.String)
   - Excepticon.Options.ExcepticonOptions.ApiKey
+  - Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+  - Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
   - Excepticon.Options.ExcepticonOptions.FlushOnCompletedRequest
   - Excepticon.Options.ExcepticonOptions.FlushTimeout
   - Excepticon.Options.ExcepticonOptions.MaxQueueItems
@@ -28,7 +30,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ExcepticonOptions
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 6
+    startLine: 7
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -69,7 +71,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: .ctor
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 8
+    startLine: 9
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -99,7 +101,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: .ctor
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 17
+    startLine: 18
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -132,7 +134,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ApiKey
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 22
+    startLine: 23
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -167,7 +169,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ShouldSwallowExceptions
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 24
+    startLine: 25
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -202,7 +204,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: ShutdownTimeout
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 26
+    startLine: 27
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -237,7 +239,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: MaxQueueItems
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 28
+    startLine: 29
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -272,7 +274,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: FlushOnCompletedRequest
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 30
+    startLine: 31
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -307,7 +309,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: FlushTimeout
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 32
+    startLine: 33
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -342,7 +344,7 @@ items:
       repo: https://github.com/Excepticon/excepticon-dotnet.git
     id: Url
     path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
-    startLine: 34
+    startLine: 35
   assemblies:
   - Excepticon
   namespace: Excepticon.Options
@@ -359,6 +361,76 @@ items:
   - set
   modifiers.vb:
   - Public
+- uid: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
+  commentId: P:Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
+  id: ExcludedExceptionTypes
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ExcludedExceptionTypes
+  nameWithType: ExcepticonOptions.ExcludedExceptionTypes
+  fullName: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExcludedExceptionTypes
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 37
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public string ExcludedExceptionTypes { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ExcludedExceptionTypes As String
+  overload: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+  commentId: P:Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+  id: ExcludedExceptionTypeList
+  parent: Excepticon.Options.ExcepticonOptions
+  langs:
+  - csharp
+  - vb
+  name: ExcludedExceptionTypeList
+  nameWithType: ExcepticonOptions.ExcludedExceptionTypeList
+  fullName: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+  type: Property
+  source:
+    remote:
+      path: src/Excepticon/Options/ExcepticonOptions.cs
+      branch: master
+      repo: https://github.com/Excepticon/excepticon-dotnet.git
+    id: ExcludedExceptionTypeList
+    path: ../excepticon-dotnet/src/Excepticon/Options/ExcepticonOptions.cs
+    startLine: 41
+  assemblies:
+  - Excepticon
+  namespace: Excepticon.Options
+  syntax:
+    content: public List<string> ExcludedExceptionTypeList { get; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{System.String}
+    content.vb: Public ReadOnly Property ExcludedExceptionTypeList As List(Of String)
+  overload: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 references:
 - uid: Excepticon.Options
   commentId: N:Excepticon.Options
@@ -725,3 +797,102 @@ references:
   name: Url
   nameWithType: ExcepticonOptions.Url
   fullName: Excepticon.Options.ExcepticonOptions.Url
+- uid: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
+  name: ExcludedExceptionTypes
+  nameWithType: ExcepticonOptions.ExcludedExceptionTypes
+  fullName: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypes
+- uid: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList*
+  commentId: Overload:Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+  name: ExcludedExceptionTypeList
+  nameWithType: ExcepticonOptions.ExcludedExceptionTypeList
+  fullName: Excepticon.Options.ExcepticonOptions.ExcludedExceptionTypeList
+- uid: System.Collections.Generic.List{System.String}
+  commentId: T:System.Collections.Generic.List{System.String}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<String>
+  nameWithType: List<String>
+  fullName: System.Collections.Generic.List<System.String>
+  nameWithType.vb: List(Of String)
+  fullName.vb: System.Collections.Generic.List(Of System.String)
+  name.vb: List(Of String)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

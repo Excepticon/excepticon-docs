@@ -13,6 +13,11 @@
       href: getting-started/azure-functions.md
     - name: WPF App
       href: getting-started/wpf.md
+- name: Excepticon Options
+  href: options/index.md
+  items:
+    - name: Overview
+      href: options/index.md
 # - name: Excepticon Web Application
 #   href: web-application/index.md
 #   items:
